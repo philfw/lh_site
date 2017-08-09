@@ -1,7 +1,5 @@
 /*fonts*/
-
-@import url('https://fonts.googleapis.com/css?family=Passion+One');
-@import url('https://fonts.googleapis.com/css?family=Khula|Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i');
 
 /*general*/
 
@@ -9,8 +7,6 @@ body{
 	height:100%;
 	width:100%;
 	font-family: sans-serif;
-	background-color:#fff;
-	color:white;
 	position:relative;
 }
 
@@ -31,7 +27,6 @@ body{
 a {
 	text-decoration: none;
 	color:white;
-	font-family: 'Khula', sans-serif;
 	font-weight:900;
 }
 
@@ -46,6 +41,14 @@ a:hover {
   visibility: hidden;
   line-height: 0;
   height: 0;
+}
+
+.logo {
+	width:14vw;
+	height:14vw;
+	background-image:url('images/logo.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 
 /*nav*/
@@ -65,18 +68,20 @@ li {
 
 .hero {
 	display:table-cell;
-	text-align:center;
 	vertical-align: middle;
+	width:80vw;
+	padding-left:30vw;
+	padding-right:20vw;
 }
 
 h1 {
-	display:none;
-	font-family: 'Passion One', cursive;
-	font-size:10vw;
+	font-size:7vw;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:200;
+	width:30vw;
 }
 
 h2 {
-	font-family: 'Khula', sans-serif;
 	font-size:5vw;
 }
 /*about*/
@@ -93,15 +98,6 @@ h2 {
 	display:inline;
 	width:40vw;
 	margin-bottom:30vh;
-}
-
-p.info {
-	width:4vw;
-	height:4vw;
-	background-image:url("images/i.png");
-	background-size:cover;
-	background-repeat:no-repeat;
-	margin-top:40vh;
 }
 
 /*contact*/

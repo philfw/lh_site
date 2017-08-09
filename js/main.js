@@ -1,5 +1,6 @@
 // Auto-scroll
 
+
 $('.next').on('click', function (event){
 	event.preventDefault();
 	$('html, body').animate({
