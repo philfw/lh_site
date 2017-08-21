@@ -1,6 +1,15 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i');
 
+@font-face {
+	font-family: 'GothamBook';
+	src: url('./GothamBook.eot');
+	src: local('fonts/GothamBook'), 
+		url('fonts/GothamBook.woff') format('woff'), 
+		url('fonts/GothamBook.ttf') format('truetype'),
+		url('fonts/GothamBook.otf') format('opentype');
+}
+
 /*general*/
 
 body{
@@ -63,6 +72,10 @@ a:hover {
 
 /*nav*/
 
+nav {
+	width:100%;
+}
+
 ul {
 	height:35px;
 }
@@ -85,15 +98,15 @@ li {
 	display:table-cell;
 	vertical-align: middle;
 	width:80vw;
-	padding-left:30vw;
-	padding-right:20vw;
+	padding-left:25vw;
+	padding-right:25vw;
 }
 
 h1 {
 	font-size:7vw;
-	font-family: 'Titillium Web', sans-serif;
-	font-weight:200;
+	font-family: 'GothamBook', sans-serif;
 	width:30vw;
+	font-weight:100;
 }
 
 h2 {
